@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+.logomrc{
+    width: 120px;
+}
+.buscando {
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid rgb(88, 196, 0);
+    font-weight: 900px;
+    color: rgb(116, 115, 115);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.equipo{
+   width: 0 auto ;
+}
