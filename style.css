@@ -1,16 +1,22 @@
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
 
 }
 
-.header {
+.logo {
     display: flex;
     flex-direction: row;
 }
-.logomrc{
+
+.logomrc {
     width: 120px;
 }
+
 .buscando {
     padding: 15px;
     border-radius: 5px;
@@ -28,8 +34,139 @@ a {
     color: black;
 }
 
+/*main*/
+
+.titulo-h2{
+    margin-left: 300px;
+}
+main{
+     gap: 20px;
+}
+
+.equipo {
+    width: 99vw;
+    height: 80vh;
+}
+
+.container-info{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    max-width: 1500px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+}
+.card1{
+    width: 400px;
+    
+}
+
+.titulo-info{
+    text-transform: uppercase;
+}
+
+.INFO{
+    width: 100%;
+    height: 400px;
+}
+
+.container-induclub{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    max-width: 1500px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.card2{
+    width: 400px;
+}
+
+.induclub{
+    width: 100%;
+    height: 350px;
+}
+
+.titulo-indu{
+    color: rgb(77, 77, 77);
+    text-transform: uppercase;
+}
+
+.precioclub{
+    font-weight: 700;
+    color: black;
+}
 
 
-.equipo{
-   width: 0 auto ;
+.boton-induclub{
+    background-color:  rgb(0, 167, 50);
+    border: 1px solid rgb(0, 167, 50);
+    border-radius: 2px;
+    padding: 5px;
+    width: 100%;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.container-indu{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    max-width: 1500px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+
+.card3{
+    width: 400px;
+}
+
+.indu{
+    width: 100%;
+    height: 350px;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-iz{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+.card-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.p-info{
+    font-weight: 900;
+}
+
+.card-indumen{
+display: flex;
+justify-content: center;
+align-items:start;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.card-dere{
+    display: flex;
+    flex-direction: column
 }
