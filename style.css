@@ -1,3 +1,5 @@
+
+/*HEADER*/
 header {
     display: flex;
     justify-content: space-between;
@@ -21,7 +23,7 @@ header {
     padding: 15px;
     border-radius: 5px;
     border: 2px solid rgb(88, 196, 0);
-    font-weight: 900px;
+    font-weight: 900;
     color: rgb(116, 115, 115);
 }
 
@@ -33,8 +35,9 @@ a {
     text-decoration: none;
     color: black;
 }
+/*FIN DEL HEADER*/
 
-/*main*/
+/*MAIN*/
 
 .titulo-h2{
     margin-left: 300px;
@@ -44,7 +47,7 @@ main{
 }
 
 .equipo {
-    width: 99vw;
+    width: 100%;
     height: 80vh;
 }
 
@@ -128,9 +131,9 @@ main{
     width: 100%;
     height: 350px;
 }
+/*FIN DEL MAIN*/
 
-
-
+/*FOOTER*/
 footer{
     display: flex;
     justify-content: space-between;
@@ -142,9 +145,9 @@ footer{
     flex-direction: row;
 }
 
+/*FIN DEL FOOTER*/
 
-
-
+/*INFO */
 .card-info{
     display: flex;
     justify-content: center;
@@ -157,7 +160,9 @@ footer{
 .p-info{
     font-weight: 900;
 }
+/*FIN DE INFO*/
 
+/*INDUMEN*/
 .card-indumen{
 display: flex;
 justify-content: center;
@@ -170,3 +175,4 @@ margin: 0 auto;
     display: flex;
     flex-direction: column
 }
+/*FIN DE INDUMEN*/
